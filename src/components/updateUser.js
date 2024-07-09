@@ -34,7 +34,7 @@ function UpdateUser() {
       .then((res) => res.json())
       .then((data) => {
         alert(data.data);
-        window.location.href = "/userHome";
+        window.location.href = "https://college-server-2.onrender.com/userHome";
       });
   };
 

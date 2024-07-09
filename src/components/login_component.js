@@ -29,7 +29,7 @@ export default function Login() {
           window.localStorage.setItem("token", data.data);
           window.localStorage.setItem("loggedIn", true);
 
-          window.location.href = "./userDetails";
+          window.location.href = "https://college-server-2.onrender.com/userDetails";
         }
       });
   }
