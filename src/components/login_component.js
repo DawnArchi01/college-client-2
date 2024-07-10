@@ -67,7 +67,7 @@ export default function Login() {
             </button>
           </div>
           <p className="text-right">
-            <a href="/sign-up">Sign Up</a>
+            <a href="../sign-up">Sign Up</a>
           </p>
         </form>
       </div>
