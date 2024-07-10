@@ -25,7 +25,7 @@ export default function AdminHome({ userData }) {
   // logout
   const logOut = () => {
     window.localStorage.clear();
-    window.location.href = "./sign-in";
+    window.location.href = "https://college-server-2.onrender.com/sign-in";
   };
 
   const showPdf = (pdf) => {
