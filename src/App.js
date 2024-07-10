@@ -20,7 +20,7 @@ function App() {
             element={isLoggedIn === "true" ? <UserDetails /> : <Login />}
           />
           <Route path="/sign-in" element={<Login />} />
-          <Route path="/sign-up" element={<SignUp />} />
+          <Route path="../sign-up" element={<SignUp />} />
           <Route path="/userDetails" element={<UserDetails />} />
           <Route path="/updateUser" element={<UpdateUser />} />
           <Route path="/userHome" element={<UserHome />} />
