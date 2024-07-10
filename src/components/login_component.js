@@ -29,7 +29,7 @@ export default function Login() {
           window.localStorage.setItem("token", data.data);
           window.localStorage.setItem("loggedIn", true);
 
-          window.location.href = "https://college-server-2.onrender.com/userDetails";
+          window.location.href = "/userDetails";
         }
       });
   }
@@ -67,7 +67,7 @@ export default function Login() {
             </button>
           </div>
           <p className="text-right">
-            <a href="../sign-up">Sign Up</a>
+            <a href="/sign-up">Sign Up</a>
           </p>
         </form>
       </div>
